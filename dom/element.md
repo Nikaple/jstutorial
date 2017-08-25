@@ -559,7 +559,7 @@ el.closest(":not(div)") // article
 
 ### Element.match()
 
-`Element.match`方法返回一个布尔值，表示当前元素是否匹配给定的CSS选择器。
+`Element.matches`方法返回一个布尔值，表示当前元素是否匹配给定的CSS选择器。
 
 ```javascript
 if (el.matches('.someClass')) {
